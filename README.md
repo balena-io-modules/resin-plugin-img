@@ -31,8 +31,6 @@ resin img cp &lt;image> &lt;from> &lt;to>
  * from: Path in your local filesystem to copy from.
  * to: Path in the boot partition of the disk to copy to.
 
-Optionally, a parameter `--partition NUMBER` can be used to copy to partition NUMBER instead of the first partition.
-
 ###Example###
 
 ```resin img resin-myApp-0.0.1.img deviceTree.dtb /dtbs/deviceTree.dtb```

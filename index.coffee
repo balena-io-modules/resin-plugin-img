@@ -7,16 +7,7 @@ BOOT_PARTITION = 1
 cp =
 	signature: 'img cp <image> <from> <to>'
 	description: 'copy a file into the boot partition of a resin OS disk image'
-	options: [
-		signature: 'partition'
-		parameter: 'NUMBER'
-		description: "write to partition NUMBER (default: #{BOOT_PARTITION})"
-		alias: 'p'
-	]
 	action: (params, options, done) ->
-		if not options.partition?
-			options.partition = BOOT_PARTITION
-
 		fromStream = fs.createReadStream(params.from)
 		fromStream.on 'error', (e) ->
 			console.error("Error while reading from #{params.from}", e)
