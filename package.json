@@ -1,0 +1,33 @@
+{
+  "name": "resin-plugin-img",
+  "version": "0.0.1",
+  "description": "Modify a resin device image before burning it.",
+  "main": "index.js",
+  "homepage": "https://github.com/resin-io/resin-plugin-img",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/resin-io/resin-plugin-img.git"
+  },
+  "keywords": [
+    "resin",
+    "cli",
+    "plugin",
+    "image",
+    "img"
+  ],
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -c index.coffee"
+  },
+  "author": "Aleksis Brezas <abresas@resin.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.10.1",
+    "lodash": "^3.10.1",
+    "resin-image-fs": "^2.1.0",
+    "resin-sdk": "^2.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "mocha": "~2.0.1"
+  }
+}
