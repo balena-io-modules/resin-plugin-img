@@ -23,8 +23,7 @@
   "dependencies": {
     "bluebird": "^2.10.1",
     "lodash": "^3.10.1",
-    "resin-image-fs": "^2.1.0",
-    "resin-sdk": "^2.8.0"
+    "resin-image-fs": "^2.1.0"
   },
   "devDependencies": {
     "coffee-script": "~1.8.0",

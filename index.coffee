@@ -1,5 +1,4 @@
 _ = require 'lodash'
-resin = require 'resin-sdk'
 fs = require 'fs'
 imageFs = require 'resin-image-fs'
 
