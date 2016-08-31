@@ -33,7 +33,7 @@ resin img cp &lt;image> &lt;from> &lt;to>
 
 ###Example###
 
-```resin img resin-myApp-0.0.1.img deviceTree.dtb /dtbs/deviceTree.dtb```
+```resin img cp resin-myApp-0.0.1.img deviceTree.dtb /dtbs/deviceTree.dtb```
 
 Support
 -------
